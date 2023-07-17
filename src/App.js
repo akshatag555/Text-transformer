@@ -34,7 +34,7 @@ function App() {
   return (
     <div >
       <BrowserRouter>
-  <Navbar title="TextUtil" about="AboutUs" mode={mode} togglemode={togglemode}/>
+  <Navbar title="Text Transformer" about="AboutUs" mode={mode} togglemode={togglemode}/>
   <Alert alert={alert}/>
   <div className="container">
           <Routes>
